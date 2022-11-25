@@ -49,7 +49,17 @@
       <img src="@/img/dc-logo-bg.png" alt="">
     </div>
     <div class="footer-navbar-container">
-
+      <nav>
+        <button>Sing-up Now!</button>
+        <div class="icons-container">
+          <h4>Follow us</h4>
+          <img src="@/img/footer-facebook.png" alt="">
+          <img src="@/img/footer-periscope.png" alt="">
+          <img src="@/img/footer-youtube.png" alt="">
+          <img src="@/img/footer-pinterest.png" alt="">
+          <img src="@/img/footer-twitter.png" alt="">
+        </div>
+      </nav>
     </div>
   </footer>
 </template>
@@ -87,5 +97,29 @@ export default {
   .links-container a {
     text-decoration: none;
     color: grey;
+  }
+  .footer-navbar-container {
+    background-color: #303030;
+    padding: 2rem 3rem;
+  }
+  .footer-navbar-container nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icons-container {
+    display: flex;
+    gap: 1rem;
+  }
+  .icons-container h4 {
+    font-size: 1.3rem;
+    color: blue;
+    cursor: pointer;
+  }
+  .icons-container img {
+    display: block;
+    cursor: pointer;
   }
 </style>
