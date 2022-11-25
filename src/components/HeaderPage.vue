@@ -24,6 +24,8 @@ export default {
 
 <style lang="scss" scoped>
 header {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 1rem;
   display: flex;
   flex-direction: row;
