@@ -46,18 +46,36 @@
           </ul>
         </div>
       </div>
-      <img src="@/img/dc-logo-bg.png" alt="">
+      <img
+        src="@/img/dc-logo-bg.png"
+        alt=""
+      >
     </div>
     <div class="footer-navbar-container">
       <nav>
         <button>Sing-up Now!</button>
         <div class="icons-container">
           <h4>Follow us</h4>
-          <img src="@/img/footer-facebook.png" alt="">
-          <img src="@/img/footer-periscope.png" alt="">
-          <img src="@/img/footer-youtube.png" alt="">
-          <img src="@/img/footer-pinterest.png" alt="">
-          <img src="@/img/footer-twitter.png" alt="">
+          <img
+            src="@/img/footer-facebook.png"
+            alt=""
+          >
+          <img
+            src="@/img/footer-periscope.png"
+            alt=""
+          >
+          <img
+            src="@/img/footer-youtube.png"
+            alt=""
+          >
+          <img
+            src="@/img/footer-pinterest.png"
+            alt=""
+          >
+          <img
+            src="@/img/footer-twitter.png"
+            alt=""
+          >
         </div>
       </nav>
     </div>

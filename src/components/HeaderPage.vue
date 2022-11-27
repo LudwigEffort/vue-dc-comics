@@ -1,6 +1,9 @@
 <template>
   <header>
-    <img src="@/img/dc-logo.png" alt="">
+    <img
+      src="@/img/dc-logo.png"
+      alt=""
+    >
     <ul>
       <li>Characters</li>
       <li>Comics</li>

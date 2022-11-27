@@ -1,7 +1,10 @@
 <template>
   <main>
     <div class="content-container">
-      <h1>Content goes here!</h1>
+      <CardComic
+        v-for="i in 12"
+        :key="i"
+      />
     </div>
     <div class="main-menu-container">
       <MainMenu />
@@ -11,12 +14,14 @@
 
 <script>
 import MainMenu from './MainMenu.vue';
+import CardComic from './CardComic.vue';
 
 export default {
+  name: 'MainPage',
   components: {
     MainMenu,
+    CardComic,
   },
-  name: 'MainPage',
 };
 </script>
 

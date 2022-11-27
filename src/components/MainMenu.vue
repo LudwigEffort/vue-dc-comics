@@ -1,11 +1,37 @@
 <template>
-<ul>
-  <li><img src="@/img/buy-comics-digital-comics.png" alt=""></li>
-  <li><img src="@/img/buy-comics-merchandise.png" alt=""></li>
-  <li><img src="@/img/buy-comics-subscriptions.png" alt=""></li>
-  <li><img src="@/img/buy-comics-shop-locator.png" alt=""></li>
-  <li><img class="test" src="@/img/buy-dc-power-visa.svg" alt=""></li>
-</ul>
+  <ul>
+    <li>
+      <img
+        src="@/img/buy-comics-digital-comics.png"
+        alt="1"
+      >
+    </li>
+    <li>
+      <img
+        src="@/img/buy-comics-merchandise.png"
+        alt="1"
+      >
+    </li>
+    <li>
+      <img
+        src="@/img/buy-comics-subscriptions.png"
+        alt="1"
+      >
+    </li>
+    <li>
+      <img
+        src="@/img/buy-comics-shop-locator.png"
+        alt="1"
+      >
+    </li>
+    <li>
+      <img
+        src="@/img/buy-dc-power-visa.svg"
+        alt="1"
+        class="test"
+      >
+    </li>
+  </ul>
 </template>
 
 <script>
