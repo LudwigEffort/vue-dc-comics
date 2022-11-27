@@ -48,6 +48,7 @@ export default {
 <style lang="scss" scoped>
 img {
   max-width: 50px;
+  max-height: 50px;
   margin-right: 0.5rem;
 }
 ul {

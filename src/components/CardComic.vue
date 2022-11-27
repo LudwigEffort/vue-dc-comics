@@ -21,6 +21,7 @@ export default {
 
 <style lang="scss" scoped>
   .card {
+    cursor: pointer;
     text-align: center;
     img {
       max-width: 90%;

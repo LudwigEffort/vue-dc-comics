@@ -44,5 +44,6 @@ header ul {
 header li:hover {
   cursor: pointer;
   color: blue;
+  border-bottom: 2px solid blue;
 }
 </style>

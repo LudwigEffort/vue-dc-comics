@@ -140,4 +140,14 @@ export default {
     display: block;
     cursor: pointer;
   }
+  button {
+    cursor: pointer;
+    display: block;
+    color: white;
+    background-color: transparent;
+    border: solid #0282F9;
+    padding: 1rem 1.5rem;
+    font-size: 13pt;
+    margin-bottom: 2rem;
+  }
 </style>

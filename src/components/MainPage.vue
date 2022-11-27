@@ -10,6 +10,7 @@
           :series="objComics.series"
         />
       </div>
+      <button>Load more</button>
     </div>
     <div class="main-menu-container">
       <MainMenu />
@@ -111,6 +112,10 @@ export default {
 <style lang="scss" scoped>
 .content-container {
   background-color: #1C1C1C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .cards-container {
   max-width: 1200px;
@@ -122,6 +127,16 @@ export default {
 }
 .card{
   flex: 0 0 calc((100% - 5rem)/6);
+}
+.content-container button {
+  cursor: pointer;
+  display: block;
+  color: white;
+  background-color: #0282F9;
+  border: solid #0282F9;
+  padding: 1rem 1.5rem;
+  font-size: 13pt;
+  margin-bottom: 2rem;
 }
 .main-menu-container {
   background-color: #0282F9;
